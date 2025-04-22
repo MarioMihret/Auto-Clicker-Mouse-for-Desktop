@@ -1,0 +1,25 @@
+{
+    "click_interval": 1500,
+    "click_button": "left",
+    "click_type": "single",
+    "hotkeys": {
+        "start_stop": "F6",
+        "exit": "F8",
+        "settings": "F2"
+    },
+    "ui": {
+        "title": "AutoClicker",
+        "width": 400,
+        "height": 300,
+        "theme": "default",
+        "icon_path": "assets/icon.png"
+    },
+    "log": {
+        "log_file": "logs/app.log",
+        "log_level": "INFO",
+        "max_log_size": 1048576,
+        "backup_count": 3
+    },
+    "profiles": {},
+    "current_profile": "default"
+}

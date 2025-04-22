@@ -1,0 +1,81 @@
+{
+  "session_id": "20250408_234457",
+  "timestamp": "2025-04-08T23:46:40.113646",
+  "browser_count": 3,
+  "browser_sessions": [
+    {
+      "browser_index": 0,
+      "initial_url": "https://www.example.com",
+      "start_time": "2025-04-08T23:45:26.088612",
+      "tasks": []
+    },
+    {
+      "browser_index": 1,
+      "initial_url": "https://www.wikipedia.org",
+      "start_time": "2025-04-08T23:45:29.977102",
+      "tasks": [
+        {
+          "name": "navigation_task",
+          "action_type": "navigate",
+          "description": "Navigate to Wikipedia",
+          "args": [
+            "https://www.wikipedia.org"
+          ],
+          "kwargs": {},
+          "completed": true,
+          "execution_time": 0.61,
+          "browser_index": 1,
+          "timestamp": "2025-04-08T23:46:20.989673"
+        },
+        {
+          "name": "click_en_wiki",
+          "action_type": "click",
+          "description": "Click on English Wikipedia link",
+          "args": [
+            "a#js-link-box-en"
+          ],
+          "kwargs": {
+            "timeout": 5
+          },
+          "completed": true,
+          "execution_time": 3.67,
+          "browser_index": 1,
+          "timestamp": "2025-04-08T23:46:24.047341"
+        }
+      ]
+    },
+    {
+      "browser_index": 2,
+      "initial_url": "https://www.github.com",
+      "start_time": "2025-04-08T23:46:20.366049",
+      "tasks": [
+        {
+          "name": "github_navigate",
+          "action_type": "navigate",
+          "description": "Navigate to GitHub",
+          "args": [
+            "https://github.com"
+          ],
+          "kwargs": {},
+          "completed": true,
+          "execution_time": 5.72,
+          "browser_index": 2,
+          "timestamp": "2025-04-08T23:46:26.128512"
+        },
+        {
+          "name": "github_scroll",
+          "action_type": "scroll",
+          "description": "Scroll down GitHub search results",
+          "args": [
+            500
+          ],
+          "kwargs": {},
+          "completed": true,
+          "execution_time": 9.2,
+          "browser_index": 2,
+          "timestamp": "2025-04-08T23:46:29.683279"
+        }
+      ]
+    }
+  ]
+}
